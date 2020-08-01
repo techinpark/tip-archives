@@ -1,4 +1,4 @@
-
+# docker-compose 설정 
 ```
 # docker-compose.yml
 version: '3'
@@ -29,3 +29,10 @@ services:
 ```
 brew cask install adoptopenjdk/openjdk/adoptopenjdk8
 ```
+
+# Jenkins 초기 비밀번호 위치
+Jenkins 초기 비밀번호 위치이다.
+
+/var/jenkins_home/secrets/initialAdminPassword
+# 실행중인 jenkins 컨테이너에 쉘 명령어 실행
+docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
