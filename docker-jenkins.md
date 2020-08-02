@@ -36,3 +36,7 @@ Jenkins 초기 비밀번호 위치이다.
 /var/jenkins_home/secrets/initialAdminPassword
 # 실행중인 jenkins 컨테이너에 쉘 명령어 실행
 docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+
+
+# Slack notification 설정
+- 플러그인 설치 
